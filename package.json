@@ -1,0 +1,20 @@
+{
+	"name": "google-sheet",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"start": "node app.js",
+		"start:dev": "npm start --env dev",
+		"start:test": "npm start --env test",
+		"start:prod": "npm start --env prod",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"express": "^4.19.2",
+		"google-auth-library": "^9.11.0",
+		"googleapis": "^140.0.1"
+	}
+}
